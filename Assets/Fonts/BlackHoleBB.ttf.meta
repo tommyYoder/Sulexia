@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 150fa8a749d12dc4e9b04171ab7b132e
+timeCreated: 1502056795
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BlackHole BB
+  fontNames:
+  - BlackHole BB
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

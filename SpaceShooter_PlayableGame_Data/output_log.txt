@@ -1,0 +1,51 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 8400 (ID=0x9830)
+    Vendor:   ATI
+    VRAM:     2285 MB
+    Driver:   13.352.1004.1007
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  1.226 seconds
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\jbirdtdog\Desktop\Portfolio_Items\PlayableGameLevel\UnitySpaceShooter\SpaceShooter\SpaceShooter_PlayableGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 5.370180 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 4434 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 44.555725 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1019.
+Total: 17.521694 ms (FindLiveObjects: 0.406264 ms CreateObjectMapping: 0.177484 ms MarkObjects: 3.068014 ms  DeleteObjects: 13.865314 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at PlayerController+<OnTriggerEnter>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at PlayerController+<OnTriggerEnter>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
